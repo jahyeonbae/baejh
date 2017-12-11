@@ -21,7 +21,7 @@
         }); 
     </script>
     <style>
-        html,body,h1,h2,h3,h4,h5,li,ul,ol{
+        html,body,h1,h2,h3,h4,h5,li,ul,ol,a{
             margin:0;
             padding:0;
         }
@@ -31,6 +31,10 @@
         ul,li,ol{
             list-style:none;
         }
+        a{
+            text-decoration:none;
+        }
+
         /* body, html {
         background-color: #000;
         color: #fff;
@@ -80,6 +84,21 @@
             text-transform:uppercase;
             padding:17px;
         }
+        .gnb ul{
+            float:right;
+            position:relative;
+            /* z-index:50; */
+            top:-40%;
+            right:3%;
+        }
+        .gnb li{
+            float:left;          
+            font-size:15px;
+            padding:7px;
+        }
+        .gnb a{
+            color:#fff;
+        }
         .content{
             position:absolute;
             width:100%;
@@ -115,7 +134,11 @@
 </head>
 <body>
     <div class="gnb">
-        <h1>jh's portfolio</h1>  
+        <h1>jh's portfolio</h1> 
+        <ul>
+            <li><a href="">my portfolio</a></li>
+            <li><a href="">about me</a></li>
+        </ul> 
     </div> 
     <div class="work"> 
             <!-- <canvas style="width:100px;height:100px;"id="canvas"></canvas>
