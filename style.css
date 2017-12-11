@@ -1,0 +1,108 @@
+html,body,h1,h2,h3,h4,h5,li,ul,ol,a{
+    margin:0;
+    padding:0;
+}
+img{
+    vertical-align: top;
+}
+ul,li,ol{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+/* body, html {
+background-color: #000;
+color: #fff;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+overflow: hidden;
+} */
+/* .work canvas {
+position:absolute;
+margin-left : 50%;
+left: 340px;
+top:430px;
+} */
+.work img{
+    display:none;
+    z-index:100;
+    position:relative;
+}       
+.work{    
+    width:100%; 
+    height:1200px;      
+    background-image:url('images/work.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;     
+}
+.work:before{
+    content:"";
+    width:100%;
+    height:1200px;
+    background-color:rgba(25,25,25,.5);       
+    position:absolute;
+    top:0;
+    left:0;
+    overflow:hidden;
+}
+.gnb{
+    height:80px;
+    width:100%;
+    background-color:#000;
+    position:fixed;  
+    z-index:10; 
+}
+.gnb h1{
+    color:#FFF;
+    text-transform:uppercase;
+    padding:17px;
+}
+.gnb ul{
+    float:right;
+    position:relative;
+    /* z-index:50; */
+    top:-40%;
+    right:3%;
+}
+.gnb li{
+    float:left;          
+    font-size:15px;
+    padding:7px;
+}
+.gnb a{
+    color:#fff;
+}
+.content{
+    position:absolute;
+    width:100%;
+    height:1200px;
+}
+.content ul{
+    position:absolute;
+    top:-340px;
+}
+.content li{
+    width:33%;   
+    float:left;     
+}
+.com{
+    border:2px #CCC solid;
+    border-radius:20px;
+    width:75%;
+    height:280px;
+    background-color: #000;
+    padding:15px;  
+    margin-left:60px;      
+}
+.port{
+    width:100%;
+    height:100%;
+}
+.port img{
+    width:100%;
+    height:100%;
+}
