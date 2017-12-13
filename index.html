@@ -8,6 +8,7 @@
     <!-- <script type="text/javascript" src="jquery.js"></script> -->
     <script type="text/javascript" src="snowfall.jquery.js"></script>
     <script type="text/javascript" src="smog.jquery.js"></script>
+    <script type="text/javascript" src="common.jquery.js"></script>
     <title>Document</title>
     <link rel='stylesheet' type='text/css' href='style.css'>
       <!--[if IE]><script src="js/excanvas.js"></script><![endif] -->
@@ -21,31 +22,52 @@
         }); 
     </script>
     <style>
+        .fl{
+            float:left;
+        }
+        .fr{
+            float:right;
+        }
         .section{
             width:100%;
-            height:1000px;
+            height:100%;
+            padding-bottom:5%;
             background-color: #000;
         }
         .section h1{
             color:#FFF;
-            margin: 0 auto;
             padding: 15px;
             text-transform: uppercase;
         }
         .section li{
-            width:50%;  
-            padding-top:2%;          
+            width:40%;              
+            padding-top:2%;
+            height:305px;                            
+        }     
+        .section .first{
+            width:70%;        
         }
-        .first{
-            width:60%;        
+        .section .sup{
+            color:#FFF;
+            font-size:14px;  
+            margin-left:50%; 
+            width:100%;  
         }
+        .sup li{          
+            height:1%;
+        }
+        .sup p{
+            width:100%;
+            text-align:justify;
+        }
+       
     </style>
 </head>
 <body>
     <div class="gnb">
         <h1>jh's portfolio</h1> 
         <ul>
-            <li><a href="">my portfolio</a></li>
+            <li><a href="">my project</a></li>
             <li><a href="">about me</a></li>
         </ul> 
     </div> 
@@ -81,26 +103,67 @@
     <div class="section">
         <h1>my project</h1>
         <ul>
-            <li>
+            <li class="fl">
+                <div class="com first">
+                    <div class="port">
+                        <img src="images/dg-book.png" alt="">
+                    </div>
+                </div>
+            </li>
+            <li class="sup">
+                <ul>
+                    <li>• 제   목: digital book(디지털교과서_검정교과서 사회1,2)</li>
+                    <li>• 제작기간: 2017.08~.2017.11(약 3개월)</li>
+                    <li>• 담당업무: HTML, CSS, git(100%)</li>
+                    <li>
+                        <p>디지털 교과서 제작 업체에서 약 3개월 간 프리랜서 업무를 수행.
+                        검정교과서 1,2권의 3, 4단원을 도맡아 html, css를 전담. 6명의 퍼블리셔가 함께 
+                        사용할 수 있는 초기 guide작업에 참여하였으며 jira사용이 가능함.  
+                        </p>
+                    </li>
+                </ul>
+            </li>       
+            <li class="fl">
                 <div class="com first">
                     <div class="port">
                         <img src="images/farmpack.png" alt="">
                     </div>
                 </div>
             </li>
-            <li></li>
+            <li class="sup">
+                <ul>
+                    <li>• 제   목: Farm pack</li>
+                    <li>• 제작기간: 2016.12~.2017.01(약 2개월)</li>
+                    <li>• 담당업무: 기획, 화면설계, 디자인, HTML, CSS, wow, less, grunt, git, jQuery(100%)</li>
+                    <li>
+                        <p>6개월간 학원에서 수강한 내용을 바탕으로 농산물을 직접 판매, 유통할 수 있는 
+                        쇼핑몰을 기획, 제작함. 웹페이지 기획부터 IA, 화면설계(Photoshop), html, css, less, 
+                        grunt를 이용하여 제작함. 
+                        </p>
+                    </li>
+                </ul>
+            </li>              
+            <li class="fl">
+                <div class="com first">
+                    <div class="port">
+                        <img src="images/taegwang.png" alt="">
+                    </div>
+                </div>
+            </li>
+            <li class="sup">
+                <ul>
+                    <li>• 제   목: 태광실업</li>
+                    <li>• 제작기간: 2016.11~.2016.11(약 2주)</li>
+                    <li>• 담당업무: HTML, CSS, less(100%)</li>
+                    <li>
+                        수업 시간에 기존 태광실업 사이트를 보고 제작함. 
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
-    <ul>
-        <li>
-            <cite><a href="">네이버신문</a></cite>
-            <p></p>
-        </li>
-        <li><a href="">보배드림</a></li>
-        <li><a href="">티스토리</a></li>
-        <li><a href="">태광</a></li>
-        <li><a href="">제이쿼리화면기능</a></li>
-        <li><a href="">farms pack</a></li>
-    </ul>
+    <div class="about">
+
+    </div>
 </body>
 </html>
