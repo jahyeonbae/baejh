@@ -106,3 +106,41 @@ top:430px;
     width:100%;
     height:100%;  
 }
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.section{
+    width:100%;
+    height:100%;
+    padding-bottom:5%;
+    background-color: #000;
+}
+.section h1{
+    color:#FFF;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.section li{
+    width:40%;              
+    padding-top:2%;
+    height:305px;                            
+}     
+.section .first{
+    width:70%;        
+}
+.section .sup{
+    color:#FFF;
+    font-size:14px;  
+    margin-left:50%; 
+    width:100%;  
+}
+.sup li{          
+    height:1%;
+}
+.sup p{
+    width:100%;
+    text-align:justify;
+}
