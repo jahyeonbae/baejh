@@ -42,5 +42,15 @@ $(function(){
         $(this).siblings('.overlay').css('opacity','');
     })
 
+    $('.gnb li').click(function(e){
+      e.preventDefault();
+      var idx = $(this).index();
+      var con = $('.section section').eq(idx).offset().top
+
+      $('html, body').animate({
+          'scrollTop':con
+      })
+    })
+
 
 })
