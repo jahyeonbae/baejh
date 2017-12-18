@@ -279,6 +279,7 @@ span.upper{
     overflow: hidden;
     border-right: .1em solid black;
     -webkit-animation: typing 7s steps(30, end), blink-caret 1s step-end infinite;
+    -webkit-text-size-adjust:none; 
 }
 
 @keyframes runningSprite {
