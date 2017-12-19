@@ -1,8 +1,8 @@
 @font-face{
     font-family:'NanumPen'; 
-    src:url('./font/NanumPen.ttf');
     src:url('./font/NanumPen.eot');
-    src:url('./font/NanumPen.woff');
+    src:local(※),url('./font/NanumPen.woff')format('woff');
+    src:url('./font/NanumPen.ttf');
     /* src:url('./font/SangSangAnt.woff'); */
     
 }
