@@ -2,7 +2,9 @@
     font-family:'NanumPen'; src:url(
         './font/NanumPen.ttf'
     );
+    src:url('./font/NanumPen.eot');
     src:url('./font/SangSangAnt.woff');
+    
 }
 
 @-webkit-keyframes typing {
