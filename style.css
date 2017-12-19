@@ -3,7 +3,7 @@
     src:url('./font/NanumPen.eot');
     src:local(※),url('./font/NanumPen.woff')format('woff');
     src:url('./font/NanumPen.ttf');
-    /* src:url('./font/SangSangAnt.woff'); */
+    src:url('./font/SangSangAnt.woff');
     
 }
 
@@ -293,7 +293,7 @@ span.upper{
     left:43%;
     color:#FFF;
     font-size:45px;          
-    font-family: 'NanumPen', cursive;
+    font-family: 'NanumPen', 'SangSangAnt', cursive;
     width: 6.3em;
     white-space: nowrap;
     overflow: hidden;
