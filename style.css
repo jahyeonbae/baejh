@@ -1,4 +1,9 @@
-@font-face{
+@-ms-font-face{
+    font-family:'NanumPen'; src:url(
+        './font/NanumPen.ttf'
+    )
+}
+@-webkit-font-face{
     font-family:'NanumPen'; src:url(
         './font/NanumPen.ttf'
     )
