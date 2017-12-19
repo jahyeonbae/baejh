@@ -11,7 +11,23 @@
         width:6.3em
     }
 }
+@-ms-keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width:6.3em
+    }
+}
 @-webkit-keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black
+    }
+}
+@-ms-keyframes blink-caret {
     from, to {
         border-color: transparent
     }
@@ -279,7 +295,9 @@ span.upper{
     overflow: hidden;
     border-right: .1em solid black;
     -webkit-animation: typing 7s steps(30, end), blink-caret 1s step-end infinite;
+    -ms-animation: typing 7s steps(30, end), blink-caret 1s step-end infinite;
     -webkit-text-size-adjust:none; 
+    -ms-text-size-adjust:none; 
 }
 
 @keyframes runningSprite {
