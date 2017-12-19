@@ -1,13 +1,10 @@
-@-ms-font-face{
+@font-face{
     font-family:'NanumPen'; src:url(
         './font/NanumPen.ttf'
-    )
+    );
+    src:url('./font/SangSangAnt.woff');
 }
-@-webkit-font-face{
-    font-family:'NanumPen'; src:url(
-        './font/NanumPen.ttf'
-    )
-}
+
 @-webkit-keyframes typing {
     from {
         width: 0
@@ -294,7 +291,7 @@ span.upper{
     left:43%;
     color:#FFF;
     font-size:45px;          
-    font-family: 'NanumPen', cursive;
+    font-family: 'NanumPen', 'SangSangAnt' cursive;
     width: 6.3em;
     white-space: nowrap;
     overflow: hidden;
